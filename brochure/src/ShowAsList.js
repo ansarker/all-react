@@ -3,7 +3,7 @@ import React from 'react';
 function ShowAsList(props) {
     const items = props.items;
     const listItems = items.map((items) =>
-        <li>{items}</li>
+        <li key={items}>{items}</li>
     );
 
     return (
