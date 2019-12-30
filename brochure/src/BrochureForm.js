@@ -22,8 +22,6 @@ class BrochureForm extends React.Component {
     }
 
     showAll = () => {
-        // const prerequisite = this.state.prerequisite.split(/\n/);
-        // console.log(lines);
         this.setState({
             prerequisite: this.state.prerequisite.split(/\n/),
             tentativeTopic: this.state.tentativeTopic.split(/\n/),
